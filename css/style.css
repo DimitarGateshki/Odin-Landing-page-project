@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+:root{
+    --col-main:#C2DED1;
+    --col-text:#ffffff;
+    --col-acc:#354259;
+    --main-font:'Roboto', sans-serif;
+}
+
+.top-section{
+    background-color: var(--col-acc);
+}
+
+.header{
+    display: flex;
+    padding: 0 2% ;
+    align-items: center;
+}
+
+#logo{
+    
+    width: 150px;
+    height: 150px;
+    margin-right: auto;
+    align-self: start;
+    flex: 1 1 -1%;
+}
+
+.menu{
+    display: flex;
+    margin-left: auto;
+    flex: 4;
+    justify-content: flex-end;
+}
+
+.menu-item{
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 0 2%;
+    font-family: var(--main-font);
+    color: var(--col-text);
+}
+
+
+
+.intro-section{
+    display: flex;
+    align-items: center;
+    
+}
+
+.intro-text{
+    flex:1 1 35%;
+    margin-left: 10%;
+    text-align: left;
+}
+
+#banner{
+    flex:2 2 65%;
+    height: 400px;
+    margin: 5% 10% 5% 0;
+}
+
+
+.main-title,
+.intro-content{
+    font-family: var(--main-font);
+    font-size: 3rem;
+    text-align: left;
+    color: var(--col-text);
+}
+
+.intro-content{
+    font-size: 1rem;
+
+}
+
+.contact{
+font-size: 1.2rem;
+font-family: var(--main-font);
+background-color: var(--col-main);
+color: #1f1f1f;
+border: 1px solid transparent;
+border-radius: 50px;
+padding: 3%;
+}
+
+.contact:hover{
+    background-color: #ece5c7;
+color: #1f1f1f;
+}
